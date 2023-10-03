@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  padding: 0;
+  display: grid;
+}
+
+.navbar {
+  background-color: white;
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right; /* Ini yang membuat navbar rata kanan */
+}
+
+.navbar li {
+  display: inline;
+  margin-left: 20px; /* Jarak antara item navbar (opsional) */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: green; /* Warna saat hover pada link */
+}
+
+.garis_1 {
+  border-style: solid;
+}
+.kotak {
+  display: inline-flex;
+  border: 1px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: 50px;
+}
+
+.dalamkotak1 {
+  margin-left: 80px;
+}
+.dalamkotak2 {
+  margin-left: 80px;
+}
+
+.button1 {
+  font-size: 20pt;
+  background: green;
+  display: grid;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:active {
+  background: red;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px; /* Ruang di dalam tombol */
+  background-color: #3498db;
+  color: white;
+  text-decoration: none; /* Menghapus garis bawah tautan */
+  border: none;
+  border-radius: 5px; /* Sudut melengkung */
+  font-size: 16px;
+  cursor: pointer;
+}

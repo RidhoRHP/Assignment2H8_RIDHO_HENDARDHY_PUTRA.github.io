@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  padding: 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px; /* Jarak antara item navbar */
+}
+
+.navbar a:hover {
+  color: green; /* Warna saat hover pada link */
+}
+.tulisan_tengah {
+  text-align: center;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px; /* Ruang di dalam tombol */
+  background-color: #3498db;
+  color: white;
+  text-decoration: none; /* Menghapus garis bawah tautan */
+  border: none;
+  border-radius: 5px; /* Sudut melengkung */
+  font-size: 16px;
+  cursor: pointer;
+}
